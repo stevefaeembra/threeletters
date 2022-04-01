@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width:80%;
+  margin: 0 auto;
+}
+
+.instructions {
+  font-size: 12px;
+}
+
+.tile {
+  width: 30px;
+  height: 25px;
+  background-color: wheat;
+  border-radius:3px;
+  border:1px solid black;
+  display: inline-block;
+  margin:0px 2px;
+}
+
+.tile span.letter {
+  font-size: 13px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.tile span.score {
+  font-size: 10px;
+  margin: 0;
+  font-weight: 800;
+}
+
+.pill {
+  background-color: grey;
+  color: white;
+  margin-right: 0.5rem;
+  padding: 3px;
+  border-radius: 6px;
+  border: 1px solid black;
+  font-size: 10px;
+}
+
+.tilerrow {
+  padding: 5px 0;
+  border-bottom: 1px solid grey;
+  margin-bottom: 3px;
+}
